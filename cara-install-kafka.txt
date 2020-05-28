@@ -1,8 +1,0 @@
-1. Download Apache Kafka binary download
-2. Edit file config/server.properties, ubah log.dirs jadi : d:/Kafka-212-250/kafka-logs
-3. Edit file config/zookeeper.properties, ubah dataDir jadi : d:/Kafka-212-250/zookeeper-data
-4. Run Zookeeper, ./bin/windows/zookeeper-server-start.bat ./config/zookeeper.properties, lalu minimize
-5. Promt lain, Run Kafka, ./bin/windows/kafka-server-start.bat ./config/server.properties, lalu minimize
-6. Prompt lain, Run ./bin/windows/kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic TestTopic
-7. Cek available topics, Run ./bin/windows/kafka-topics.bat --list --zookeeper localhost:2181
-8. Run ./bin/windows/kafka-topics
