@@ -3,6 +3,7 @@ How to Install Redis at Laravel 5.5
 
 Steps
 ----
+- install redis di https://github.com/microsoftarchive/redis/releases/tag/win-3.2.100
 - composer require predis/predis
 - add .env
   - REDIS_HOST=127.0.0.1
