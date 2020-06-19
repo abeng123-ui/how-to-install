@@ -11,7 +11,7 @@ Steps
   - REDIS_CLIENT=redis
   - REDIS_CACHE_DB=0
 
-  CACHE_DRIVER=redis
+  - CACHE_DRIVER=redis
 
 In Terminal, Type
 ----
