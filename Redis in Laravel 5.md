@@ -32,3 +32,10 @@ Install Package Debugger, for routing, JSON Response, Formatter Response (option
   - Barryvdh\Debugbar\ServiceProvider::class,
   - 'Debugbar' => Barryvdh\Debugbar\Facade::class,
 - php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
+
+Fill table
+----
+- Fill User table with some data
+- Type in browser like /*localhost/project/public/users_with_cache*/
+- Type in browser like /*localhost/project/public/users_with_query*/
+- Find the different of request time
